@@ -24,7 +24,7 @@ public class exe9 {
 
         if (quant > 0) {
             double media = soma/quant;
-            System.out.println("A média das notas dos " + quant + "alunos é: " + media);
+            System.out.println("A média das notas dos " + quant + " alunos é: " + media);
         }
         else{
             System.out.println("Não há alunos na turma");
