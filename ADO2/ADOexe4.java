@@ -1,6 +1,9 @@
 package ADO2;
     import java.util.Scanner;
-
+//Use o laço while para ler 06 valores do usuário. Ao final do laço, imprimir:
+//1. Soma de todos os valores digitados que foram positivos;
+//2. Quantidade de valores digitados que foram positivos.
+//3. Média (decimal) de todos os valores digitados que foram positivos.//
 public class ADOexe4 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);

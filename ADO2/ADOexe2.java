@@ -1,12 +1,12 @@
 package ADO2;
 import java.util.Scanner;
-
+//Leia um valor inteiro X. Em seguida mostre os ímpares de 1 até X, um valor por linha, inclusive o X, se for o caso. Use o laço for//
 public class ADOexe2 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
 
         System.out.print("Digite a seguir um número inteiro: ");
-        int x = scanner.nextInt();
+        int x = entrada.nextInt();
 
         System.out.println("Os Números ímpares de 1 até " + x + " são: ");
 
@@ -14,7 +14,7 @@ public class ADOexe2 {
             System.out.println(i);
         }
 
-        scanner.close();
+        entrada.close();
     }
 }
 
