@@ -1,8 +1,10 @@
 package ADO2;
 
+import java.util.Scanner;
+
+
 //Faça um programa para ler e escrever dados de uma turma de 5 alunos. O programa deve pedir dados como nome, idade e sexo. O programa deve imprimir os dados do aluno mais velho. Use o laço DO-WHILE.
 
-import java.util.Scanner;
 
 public class exe6 {
     public static void main(String[] args) {
