@@ -11,6 +11,10 @@ public class exe2 {
         Scanner entrada = new Scanner(System.in);
         int num;
 
+        System.out.println("Digite um número entre 1 e 10: ");
+        num = entrada.nextInt();
+
+        int soma = 0;
         
     }
 }
