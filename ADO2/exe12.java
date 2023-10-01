@@ -1,5 +1,8 @@
 package ADO2;
-    import java.util.Scanner;
+
+import java.util.Scanner;
+
+//Faça um programa que leia um número natural N e calcule a soma abaixo (lembre-se de que tanto as divisões quanto o resultado devem ser decimais). Utilize o laço que lhe for mais conveniente.
 
 public class exe12 {
     public static void main(String[] args) {
