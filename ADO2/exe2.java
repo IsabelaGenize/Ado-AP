@@ -15,6 +15,14 @@ public class exe2 {
         num = entrada.nextInt();
 
         int soma = 0;
+        int resultado = 1;
+
+        while (resultado <= num) {
+            soma += resultado;
+            resultado++;
+        }
+
+        System.out.println("A soma dos números até " + num + " é: " + soma);
         
     }
 }
