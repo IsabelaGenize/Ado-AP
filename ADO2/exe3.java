@@ -1,11 +1,15 @@
 package ADO2;
 
 import java.util.Scanner;
+
+//Escreva um programa que leia um conjunto de 10 números inteiros positivos. Seu Programa deve determinar e imprimir o maior deles. Use o laço FOR
+
+
 public class exe3 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         
-        int maior = Integer.MIN_VALUE; // Inicializa com o menor valor possível
+        int maior = Integer.MIN_VALUE;
         
         for (int i = 1; i <= 10; i++) {
             System.out.print("Digite o " + i + "º número: ");
